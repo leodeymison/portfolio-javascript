@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "rootDirs": ["src", "tests"],
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+    },
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "tests"],
+  "exclude": ["tests/e2e/cypress"],
+  "files": [
+    "src/presentation/assets/style/styled.ds.ts"
+  ]
+}

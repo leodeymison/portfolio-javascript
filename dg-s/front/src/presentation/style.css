@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+input:focus, select:focus, button:focus {
+    outline: none;
+}
+
+p, a, button, input, select {
+    font-size: 18px;
+    line-height: 24px;
+}
+span {
+    font-size: 16px;
+    line-height: 22px;
+}
+h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+h2 {
+    font-size: 26px;
+    line-height: 32px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+h5 {
+    font-size: 8px;
+    line-height: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15em;
+}
+
+.title {
+    padding: 2em 0;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.controls.rigth {
+    display: flex;
+    justify-content: right;
+    padding: .5em 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: rgb(45, 150, 242);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.btn.primary:hover{
+    transition: 0.3s;
+    background-color: rgb(83, 174, 254);
+}
+
+.btn.success {
+    background-color: rgb(45, 243, 72);
+    color: rgb(5, 5, 5);
+    transition: 0.3s;
+}
+.btn.success:hover{
+    transition: 0.3s;
+    background-color: rgb(68, 250, 92);
+}
+
+.btn.danger {
+    background-color: rgb(246, 51, 41);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.btn.danger:hover{
+    transition: 0.3s;
+    background-color: rgb(247, 70, 61);
+}
+
+
+
+
+@media (max-width: 1000px){
+    .container {
+        padding: 0 2em;
+    }
+}
+@media (max-width: 600px){
+    .container {
+        padding: 0 1em;
+    }
+}
